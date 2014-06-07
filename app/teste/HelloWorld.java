@@ -3,7 +3,7 @@ package teste;
 public class HelloWorld {
 
 	public static void main(String[] args) {
-		System.out.println("Olá Brasil");
+		System.out.println("Hello World OK");
 //testando as diferenças
 	}
 
