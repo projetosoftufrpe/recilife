@@ -4,6 +4,12 @@
 
 # Home page
 GET     /                           controllers.Application.index()
+GET		/sobre						controllers.Application.sobre()
+
+
+GET		/vacinacao/postos			controllers.VacinacaoController.postos()
+
+
 
 # Map static resources from the /public folder to the /assets URL path
 

@@ -1,0 +1,30 @@
+
+@(link: String)
+
+@content = {
+<div class="content">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 col-sm-6">
+       <h1>
+        <div class="big-text">404</div>
+        </h1>
+        <hr>
+      </div>
+      
+      <div class="col-md-7 col-md-offset-1 col-sm-6">
+        <h2>Eita!<span class="color">!!!</span></h2>
+        <h4>Página não encontrada: <i>@link</i></h4>
+        <hr>
+          <h5>Acesse nossas opções no menu superior.</h5>
+        <hr>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+}
+
+@main(content)
