@@ -19,20 +19,12 @@ import play.mvc.Controller;
 import play.mvc.Result;
 
 
-public class VacinacaoController extends Controller {
+public class AcademiaController extends Controller {
+	
+	public static Result academia(){
+    	return ok(views.html.academia.render());
+    }
+	
+		
 
-	
-	public static Result vacinacao(){
-    	return ok(views.html.vacinacao.render());
-    }
-	
-	public static Result postos(){
-    	return ok(views.html.postos.render());
-    } 
-    
-    public static Result calendario(){
-    	return ok(views.html.calendario.render());
-    }
-	
-	
 }
