@@ -11,7 +11,10 @@ GET		/vacinacao					controllers.VacinacaoController.vacinacao()
 GET		/vacinacao/postos			controllers.VacinacaoController.postos()
 GET		/vacinacao/calendario		controllers.VacinacaoController.calendario()
 
-GET		/academia					controllers.AcademiaController.academia()
+#GET 	/salvar						controllers.VacinacaoController.salvar()
+#GET	/recuperar					controllers.VacinacaoController.recuperar()
+
+GET		/academia					controllers.AcademiaController.academias(tipo: Long)
 
 GET		/prevencao					controllers.PrevencaoController.prevencao()
 GET		/prevencao/dengue			controllers.PrevencaoController.dengue()

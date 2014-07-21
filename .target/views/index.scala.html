@@ -7,10 +7,23 @@
     </head>
       
     <body>
-		<h2>Esta é minha linda página html</h2><br>
-		<br>
-		<h3>Vamos pensar positivamente!!!!</h3> <br><br>
+    	<h1><a href="@routes.Application.index()">RECILIFE</a></h1> <br>
+    	<img src="./public/img/logo.jpg" border="0" /> <br><br>
+		<h3>O seu portal sobre saúde preventiva no Recife</h3> <br>
 		
+		Conheça os programas de saúde preventiva da Prefeitura do Recife!<br>
+		Tenha acesso a informações de diversas áreas que buscam lhe proporcionar uma maior qualidade de vida!
+		<br><br><br><br>
+
+		<h3><a href="@routes.VacinacaoController.vacinacao()">Vacinação</a></h3>
+		<h3><a href="@routes.AcademiaController.academias(99)">Academia da Cidade</a></h3>
+		<h3><a href="@routes.PrevencaoController.prevencao()">Prevenção</a></h3><br>
+		
+		<br><br><br>
+		
+		<h4><a href="@routes.Application.sobre()">Saiba mais sobre o ReciLife</a></h4>
+		
+		<br>
 		
 			
     </body>

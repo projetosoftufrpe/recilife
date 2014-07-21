@@ -12,9 +12,9 @@ public class Application extends Controller {
         return ok(views.html.index.render());
     }
     
-    public static Result sobre(){
-    	return ok(views.html.sobre.render());
-    } 
+	public static Result sobre() {
+        return ok(views.html.sobre.render());
+    }
      
         
 }
