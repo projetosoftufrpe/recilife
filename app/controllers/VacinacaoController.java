@@ -5,13 +5,9 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-import org.joda.time.DateTime;
+import static play.libs.Json.toJson;
 
-import models.Total;
-import models.vacinacao.postos;
-import static models.Total.*;
-import static models.vacinacao.postos.*;
-import static play.data.Form.form;
+import org.joda.time.DateTime;
 
 import play.Logger;
 import play.data.DynamicForm;
@@ -24,6 +20,17 @@ import play.mvc.Result;
 public class VacinacaoController extends Controller {
 
 	
+	public static Result vacinacao(){
+    	return ok(views.html.vacinacao.render());
+    }
+	
+	public static Result postos(){
+    	return ok(views.html.postos.render());
+    } 
+    
+    public static Result calendario(){
+    	return ok(views.html.calendario.render());
+    }
 	
 	
 }

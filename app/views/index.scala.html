@@ -1,8 +1,33 @@
 
-@content = {
 
+<!DOCTYPE html>
 
+<html lang="en">
+    <head><title>ReciLife</title>
+    </head>
+      
+    <body>
+    	<h1><center><a href="@routes.Application.index()"><img src="@routes.Assets.at("img/logo.jpg")" border="0" /></a></center></h1> 
+    	<h3><center>O seu portal sobre saúde preventiva no Recife</center></h3> 
+		<br>	
+		<br>	
+		Conheça os programas de saúde preventiva da Prefeitura do Recife!
+		<br>
+		Tenha acesso a informações de diversas áreas que buscam lhe proporcionar uma maior qualidade de vida!
+		<br>
+		<br>
+		<br>
+		<br>
+		<h3><a href="@routes.VacinacaoController.vacinacao()">Vacinação</a></h3>
+		<h3><a href="@routes.AcademiaController.academias(99)">Academia da Cidade</a></h3>
+		<h3><a href="@routes.PrevencaoController.prevencao()">Prevenção</a></h3><br>
 		
-}
-
-@main(content)
+		<br><br><br>
+		
+		<h4><a href="@routes.Application.sobre()">Saiba mais sobre o ReciLife</a></h4>
+		
+		<br>
+		
+			
+    </body>
+</html>
