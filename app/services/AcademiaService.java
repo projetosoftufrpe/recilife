@@ -19,7 +19,7 @@ public class AcademiaService {
 	@Transactional
 	
 	public List<Academia> getAcademias() {
-		String query = "FROM ACADEMIA ORDER BY nome ASC";
+		String query = "FROM Academia ORDER BY nome ASC";
 		
 		List<Academia> list = JPA.em().createQuery(query)
 					.getResultList();

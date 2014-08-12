@@ -12,7 +12,7 @@ object ApplicationBuild extends Build {
     javaCore,
     javaJdbc,
     javaJpa,
-    //"org.hibernate" % "hibernate-entitymanager" % "4.1.9.Final",
+    "org.hibernate" % "hibernate-entitymanager" % "4.1.9.Final",
     "mysql" % "mysql-connector-java" % "5.1.18"
   )
 
